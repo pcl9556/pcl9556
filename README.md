@@ -102,7 +102,7 @@ React 기반 프론트엔드를 함께 다루는 웹 개발자입니다.
  
 
 ## 📍  Links
-  - GitHub Repo: (나중에 POPPOP 레포 링크 추가)
+  - GitHub Repo: https://github.com/POPPOPNull/POPPOP
   - 프로젝트 상세 설명(노션): 추가예정!
 
 ## ✏️ Learning & 관심사
