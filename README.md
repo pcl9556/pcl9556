@@ -89,34 +89,49 @@ React 기반 프론트엔드를 함께 다루는 웹 개발자입니다.
 > 지하철·도보 이용객의 화장실 접근성을 높이기 위한 웹 서비스
 
 #### ✔ 회원 기능 & 인증 담당 (Spring Security + 회원 도메인)
+- 회원가입 / 로그인 / 로그아웃 전체 흐름 구현 
+  - Spring Security 기반 인증/인가 로직 설계 및 적용
+  - 비회원 접근 제한, 세션 인증 관리, SecurityConfig 설정
+  - 회원 도메인 MVC 구조 개발
+  - 회원 Controller·Service·Repository 구성
+  - 회원 정보 조회/수정 기능 구현
 
-회원가입 / 로그인 / 로그아웃 전체 흐름 구현
-
-Spring Security 기반 인증/인가 적용
-
-비회원 접근 제한, 세션 관리, 인증 필터 설정
-
-회원 관련 컨트롤러, 서비스, 리포지토리 구조 설계 및 구현
-
-✔ DB 모델링 & 스키마 설계 (DB 관리자 역할)
-
-회원(Member), 화장실(Restroom), 리뷰(Review), 신고(Report), 벌점(Penalty) 도메인 설계
-
-정규화, FK/UNIQUE 제약조건 설계 및 인덱스 구성
-
-팀 기능과 매핑되는 테이블 구조 조정 및 데이터 흐름 관리
-
-팀 전체 개발 진행에 맞춰 ERD 지속 업데이트
+#### ✔ 데이터 모델링 & DB 설계 (DB 관리자 역할)
+- MySQL 스키마 설계·제약조건·인덱스 구성
+  - 회원(Member), 화장실(Restroom), 리뷰(Review), 신고(Report), 벌점(Penalty) 테이블 설계
+  - 정규화·FK·UNIQUE 기반의 제약조건 설계
+  -조회 성능 향상을 위한 인덱스 설계
+  - ERD 및 데이터 흐름 설계
+  - 기능 요구사항 변화에 맞춰 스키마 조정
+  - 팀 전체 개발 흐름에 맞춰 ERD 지속 업데이트
 
 ⚙️ Tech Stack
 Backend: Spring Boot, Spring MVC, Spring Security, Java
+<p> 
+  <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/SpringMVC-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/SpringSecurity-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white"/> 
+</p>
 Frontend: Thymeleaf, HTML/CSS/JS
+<p>
+  <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> 
+</p>
 Database: MySQL
+<p>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+</p>
 Tools: Git, GitHub, SourceTree
-
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/SourceTree-0052CC?style=for-the-badge&logo=sourcetree&logoColor=white"/>
+</p>
 
 ### 🛠 Troubleshooting
-
 - **JWT 인증 및 권한 기반 보호 API 처리**
   - 직접 JWT를 개발하진 않았지만, 매니저 페이지 개발 과정에서 발생한 401/403 오류를 분석하고  
     Axios 인터셉터 & ProtectedRoute 패턴으로 인증 흐름을 안정화했습니다.
@@ -147,11 +162,10 @@ Tools: Git, GitHub, SourceTree
 
 ## 📍  Links
   - GitHub Repo: https://github.com/POPPOPNull/POPPOP
-  - GitHub Repo:
+  - GitHub Repo: https://github.com/Project-Nu11/t-issue
   - 프로젝트 상세 설명(노션): 추가예정!
 
 ## ✏️ Learning & 관심사
-
 - Spring Security / JWT 구조 / httpOnly Cookie 인증 구조 더 깊게 이해  
 - 대시보드·통계 페이지처럼 데이터를 시각화하는 UI 만들기
 - 협업 가능한 코드 구조와 Git 브랜치 전략 익히기
@@ -163,7 +177,6 @@ Tools: Git, GitHub, SourceTree
 
 
 ## 📫 Contact
-
 - Email: pcl9556@naver.com
 - GitHub: https://github.com/pcl9556
 - Notion Portfolio: 추가예정!
