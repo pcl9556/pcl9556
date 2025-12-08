@@ -180,4 +180,5 @@ Tools: Git, GitHub, SourceTree
 ## 📫 Contact
 - Email: pcl9556@naver.com
 - GitHub: https://github.com/pcl9556
-- Notion Portfolio: 추가예정!
+- Notion Portfolio: https://www.notion.so/Web-Developer-2c330a43468b80b18556c359e503e92a?pvs=12
+
