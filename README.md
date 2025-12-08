@@ -105,7 +105,7 @@ React 기반 프론트엔드를 함께 다루는 웹 개발자입니다.
   - 기능 요구사항 변화에 맞춰 스키마 조정
   - 팀 전체 개발 흐름에 맞춰 ERD 지속 업데이트
 
-⚙️ Tech Stack
+⚙️ Tech Stack </br>
 Backend: Spring Boot, Spring MVC, Spring Security, Java
 <p> 
   <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/> 
