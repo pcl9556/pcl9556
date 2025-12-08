@@ -68,7 +68,8 @@ React 기반 프론트엔드를 함께 다루는 웹 개발자입니다.
  #### ✔ 데이터 모델링 & DB 설계 (DBA Support)
 - MySQL **스키마 설계·제약조건·인덱스 구성 논의 및 설계**
   - `member`, `popup_store`, `reservation`, `review` 등 핵심 테이블 구조 설계에 참여  
-  - 외래키, UNIQUE, ENUM-like 구조, ON UPDATE CASCADE 등 실제 운영 기준으로 제약조건 설계  
+  - 외래키, UNIQUE, ENUM-like 구조, ON UPDATE CASCADE 등 실제 운영 기준으로 제약조건 설계
+  - 팀 전체 개발 진행에 맞춰 ERD 지속 업데이트
   - 성능을 고려한 인덱스 구성 (`idx_member_role`, `idx_popup_store_category` 등)
  
 #### ✔ **서비스 브랜딩 & 시각 자료 제작**
@@ -83,6 +84,36 @@ React 기반 프론트엔드를 함께 다루는 웹 개발자입니다.
   - React Router와 상태 관리를 활용해 자연스러운 화면 전환 흐름 구성
   - 챗봇 버튼 클릭 → 팝업 상세/예약 페이지 이동으로 사용자 접근성과 탐색 효율 향상
   - 이벤트 기반 인터랙티브 UI 경험 구축
+ 
+### 2. T-issue – 지하철 화장실 정보 (Team Practice Project)
+> 지하철·도보 이용객의 화장실 접근성을 높이기 위한 웹 서비스
+
+#### ✔ 회원 기능 & 인증 담당 (Spring Security + 회원 도메인)
+
+회원가입 / 로그인 / 로그아웃 전체 흐름 구현
+
+Spring Security 기반 인증/인가 적용
+
+비회원 접근 제한, 세션 관리, 인증 필터 설정
+
+회원 관련 컨트롤러, 서비스, 리포지토리 구조 설계 및 구현
+
+✔ DB 모델링 & 스키마 설계 (DB 관리자 역할)
+
+회원(Member), 화장실(Restroom), 리뷰(Review), 신고(Report), 벌점(Penalty) 도메인 설계
+
+정규화, FK/UNIQUE 제약조건 설계 및 인덱스 구성
+
+팀 기능과 매핑되는 테이블 구조 조정 및 데이터 흐름 관리
+
+팀 전체 개발 진행에 맞춰 ERD 지속 업데이트
+
+⚙️ Tech Stack
+Backend: Spring Boot, Spring MVC, Spring Security, Java
+Frontend: Thymeleaf, HTML/CSS/JS
+Database: MySQL
+Tools: Git, GitHub, SourceTree
+
 
 ### 🛠 Troubleshooting
 
@@ -112,10 +143,11 @@ React 기반 프론트엔드를 함께 다루는 웹 개발자입니다.
   - navigate 호출 시 이전 페이지의 상태가 유지되거나 UI 업데이트가 지연되는 문제가 발생했습니다.  
     라우팅 구조 분리 및 state 초기화 로직을 재정비하여  
     챗봇 이벤트 → 페이지 이동 → UI 렌더링 흐름을 자연스럽게 최적화했습니다.
- 
+
 
 ## 📍  Links
   - GitHub Repo: https://github.com/POPPOPNull/POPPOP
+  - GitHub Repo:
   - 프로젝트 상세 설명(노션): 추가예정!
 
 ## ✏️ Learning & 관심사
