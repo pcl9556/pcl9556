@@ -164,7 +164,7 @@ Tools: Git, GitHub, SourceTree
 ## 📍  Links
   - GitHub Repo: https://github.com/POPPOPNull/POPPOP
   - GitHub Repo: https://github.com/Project-Nu11/t-issue
-  - 프로젝트 상세 설명(노션): 추가예정!
+  - 프로젝트 상세 설명(노션): https://www.notion.so/Web-Developer-2c330a43468b80b18556c359e503e92a?pvs=12
 
 ## ✏️ Learning & 관심사
 - Spring Security / JWT 구조 / httpOnly Cookie 인증 구조 더 깊게 이해  
