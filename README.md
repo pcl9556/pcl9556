@@ -29,21 +29,37 @@ React 기반 프론트엔드를 함께 다루는 웹 개발자입니다.
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 </p>
 
-**Database & Infra**
-- MySQL, MySQL Workbench
-- Git / GitHub, SourceTree
-- Docker, AWS
-- Figma, Notion
+**Database**
+- MySQL
 <p>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQLWorkbench-006EAB?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SourceTree-0052CC?style=for-the-badge&logo=sourcetree&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> 
+</p>
+
+**Infra & API**
+- Docker
+- AWS
+- Swagger
+- Postman
+<p> 
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/> 
   <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/> 
+</p>
+
+**Tools**
+- MySQL Workbench
+- Git / GitHub
+- SourceTree
+- Figma
+- Notion
+<p> 
+  <img src="https://img.shields.io/badge/MySQL_Workbench-006EAB?style=for-the-badge&logo=mysql&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/SourceTree-0052CC?style=for-the-badge&logo=sourcetree&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/> 
 </p>
 
 ## ⭐️ Projects
@@ -114,7 +130,7 @@ Backend: Spring Boot, Spring MVC, Spring Security, Java
   <img src="https://img.shields.io/badge/SpringSecurity-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/> 
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white"/> 
 </p>
-Frontend: Thymeleaf, HTML/CSS/JS
+Frontend: Thymeleaf, HTML/CSS, JavaScript(ES6+)
 <p>
   <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white"/> 
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
@@ -167,6 +183,7 @@ Tools: Git, GitHub, SourceTree
   - 프로젝트 상세 설명(노션): https://www.notion.so/Web-Developer-2c330a43468b80b18556c359e503e92a?pvs=12
 
 ## ✏️ Learning & 관심사
+- 팀 프로젝트에서의 문서화·커뮤니케이션 역량 성장 
 - Spring Security / JWT 구조 / httpOnly Cookie 인증 구조 더 깊게 이해  
 - 대시보드·통계 페이지처럼 데이터를 시각화하는 UI 만들기
 - 협업 가능한 코드 구조와 Git 브랜치 전략 익히기
@@ -174,7 +191,6 @@ Tools: Git, GitHub, SourceTree
 - 대규모 트래픽 상황을 고려한 성능 개선 및 로깅/모니터링 학습
 - Docker·CI/CD 과정을 활용한 배포 자동화 경험 확장  
 - MySQL 쿼리 최적화 및 데이터 모델링 능력 강화  
-- 팀 프로젝트에서의 문서화·커뮤니케이션 역량 성장 
 
 
 ## 📫 Contact
