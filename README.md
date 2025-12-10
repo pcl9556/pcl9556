@@ -8,25 +8,30 @@ React 기반 프론트엔드를 함께 다루는 웹 개발자입니다.
 ## 🚀 Tech Stack
 
 **Backend**
-- Java 17, Spring Boot, Spring Security, JWT
+- Java 17, Spring Boot, Spring Security, Spring MVC, JWT
 - MyBatis
 - REST API 설계
 <p>
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white"/>
   <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
   <img src="https://img.shields.io/badge/SpringSecurity-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SpringMVC-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
   <img src="https://img.shields.io/badge/MyBatis-000000?style=for-the-badge&logo=mybatis&logoColor=white"/>
 </p>
 
 **Frontend**
-- JavaScript(ES6+), React, Vite
-- React Router, Axios
+- JavaScript(ES6+)
+- React, Vite
 - HTML5, CSS3
+- Thymeleaf
 <p>
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white"/> 
 </p>
 
 **Database**
@@ -69,84 +74,18 @@ React 기반 프론트엔드를 함께 다루는 웹 개발자입니다.
 > > 팀 프로젝트 (2025)
 
 #### ✔ Manager 기능 전담 개발자 
-- `/manager/mypopup`  
-  - 팝업 등록/조회/상세/수정 화면 개발  
-  - 예약 현황 페이지 + 페이지네이션 + 검색/필터  
-- `/manager/dashboard`  
-  - KPI(예약 수/사용자 행동 유형 비율 등) + Recharts 기반 시각화  
-  - 차트 데이터 전처리 및 상태 관리 설계
-- `/manager/reservation`  
-   - 예약 리스트, CSV 다운로드, Print 기능 개발
-     
-- React + Spring Boot API 연동 (상태 관리, 에러 처리, 인증 흐름 대응)
-- 예약 목록 UI/UX 개선 (페이지네이션)
-
- #### ✔ 데이터 모델링 & DB 설계 (DBA Support)
-- MySQL **스키마 설계·제약조건·인덱스 구성 논의 및 설계**
-  - `member`, `popup_store`, `reservation`, `review` 등 핵심 테이블 구조 설계에 참여  
-  - 외래키, UNIQUE, ENUM-like 구조, ON UPDATE CASCADE 등 실제 운영 기준으로 제약조건 설계
-  - 팀 전체 개발 진행에 맞춰 ERD 지속 업데이트
-  - 성능을 고려한 인덱스 구성 (`idx_member_role`, `idx_popup_store_category` 등)
- 
+#### ✔ 데이터 모델링 & DB 설계 (DBA Support)
 #### ✔ **서비스 브랜딩 & 시각 자료 제작**
-- POPPOP Manager 페이지 디자인  
-- POPPOP 포스터/브랜딩 자료 제작 (서비스 톤·매너 통일)
-- 색상·타이포·브랜딩 가이드 통일
+#### ✔ 기타 주요 기여 기능 (User 페이지 챗봇)
 
-#### ✔ 기타 주요 기여 기능 (User 페이지)
-
-- **챗봇 기반 페이지 이동 기능 개발**
-  - 유저가 챗봇 대화 중 특정 팝업을 선택하면 해당 상세 페이지로 이동하는 기능 구현
-  - React Router와 상태 관리를 활용해 자연스러운 화면 전환 흐름 구성
-  - 챗봇 버튼 클릭 → 팝업 상세/예약 페이지 이동으로 사용자 접근성과 탐색 효율 향상
-  - 이벤트 기반 인터랙티브 UI 경험 구축
- 
+  
 ### 2. T-issue – 지하철 화장실 정보 (Team Practice Project)
 > 지하철·도보 이용객의 화장실 접근성을 높이기 위한 웹 서비스
 > >  팀 프로젝트 (2025)
 
 #### ✔ 회원 기능 & 인증 담당 (Spring Security + 회원 도메인)
-- 회원가입 / 로그인 / 로그아웃 전체 흐름 구현 
-  - Spring Security 기반 인증/인가 로직 설계 및 적용
-  - 비회원 접근 제한, 세션 인증 관리, SecurityConfig 설정
-  - 회원 도메인 MVC 구조 개발
-  - 회원 Controller·Service·Repository 구성
-  - 회원 정보 조회/수정 기능 구현
-
 #### ✔ 데이터 모델링 & DB 설계 (DB 관리자 역할)
-- MySQL 스키마 설계·제약조건·인덱스 구성
-  - 회원(Member), 화장실(Restroom), 리뷰(Review), 신고(Report), 벌점(Penalty) 테이블 설계
-  - 정규화·FK·UNIQUE 기반의 제약조건 설계
-  -조회 성능 향상을 위한 인덱스 설계
-  - ERD 및 데이터 흐름 설계
-  - 기능 요구사항 변화에 맞춰 스키마 조정
-  - 팀 전체 개발 흐름에 맞춰 ERD 지속 업데이트
 
-⚙️ Tech Stack </br>
-Backend: Spring Boot, Spring MVC, Spring Security, Java
-<p> 
-  <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/> 
-  <img src="https://img.shields.io/badge/SpringMVC-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/> 
-  <img src="https://img.shields.io/badge/SpringSecurity-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/> 
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white"/> 
-</p>
-Frontend: Thymeleaf, HTML/CSS, JavaScript(ES6+)
-<p>
-  <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white"/> 
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> 
-  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> 
-</p>
-Database: MySQL
-<p>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-</p>
-Tools: Git, GitHub, SourceTree
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> 
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> 
-  <img src="https://img.shields.io/badge/SourceTree-0052CC?style=for-the-badge&logo=sourcetree&logoColor=white"/>
-</p>
 
 ### 🛠 Troubleshooting
 - **JWT 인증 및 권한 기반 보호 API 처리**
