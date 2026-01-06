@@ -52,6 +52,8 @@ React 기반 프론트엔드를 함께 다루는 웹 개발자입니다.
 </p>
 
 **Tools**
+- VScode
+- IntelliJ IDEA
 - MySQL Workbench
 - Git / GitHub
 - SourceTree
