@@ -88,7 +88,7 @@ React 기반 프론트엔드를 함께 다루는 웹 개발자입니다.
 #### ✔ 데이터 모델링 & DB 설계 (DBMS)
 
 
-### 🛠 Troubleshooting
+## 🛠 Troubleshooting
 - **JWT 인증 및 권한 기반 보호 API 처리**
   - JWT를 개발, 매니저 페이지 개발 과정에서 발생한 401/403 오류를 분석하고  
     Axios 인터셉터 & ProtectedRoute 패턴으로 인증 흐름을 안정화했습니다.
