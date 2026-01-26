@@ -10,6 +10,7 @@ React 기반 프론트엔드를 함께 다루는 웹 개발자입니다.
 **Backend**
 - Java 17, Spring Boot, Spring Security, Spring MVC, JWT
 - MyBatis
+- JPA
 - REST API 설계
 <p>
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white"/>
@@ -59,6 +60,8 @@ React 기반 프론트엔드를 함께 다루는 웹 개발자입니다.
 - SourceTree
 - Figma
 - Notion
+- DA#
+- CVAT
 <p> 
   <img src="https://img.shields.io/badge/MySQL_Workbench-006EAB?style=for-the-badge&logo=mysql&logoColor=white"/> 
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> 
