@@ -121,6 +121,7 @@ React 기반 프론트엔드를 함께 다루는 웹 개발자입니다.
 
 
 ## 📍  Links
+  - https://chaerin-portfolio.vercel.app/
   - GitHub Repo: https://github.com/POPPOPNull/POPPOP
   - GitHub Repo: https://github.com/Project-Nu11/t-issue
   - 프로젝트 상세 설명(노션): https://www.notion.so/Web-Developer-2c330a43468b80b18556c359e503e92a?pvs=12
